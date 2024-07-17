@@ -1,0 +1,28 @@
+
+.smile{
+    width:125px;
+    height: 125px;
+   
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, rgb(249, 42, 6), #020228 50%, rgb(240, 241, 236) 50%);
+    padding: 5px;
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition:  0.5s;
+}
+.smile:hover{
+    background-position: 0% 0%;
+}
+/* h1 {
+    
+    font-size: 40px;
+    background: -webkit-linear-gradient(135deg, rgb(239, 239, 232), rgb(221, 250, 228) 50%, rgb(233, 234, 228) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bold;
+  } */

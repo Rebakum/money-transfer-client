@@ -1,0 +1,10 @@
+.banner{
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/images/bannar.png');
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
